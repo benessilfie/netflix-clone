@@ -34,7 +34,7 @@ const Home = ({
       </Head>
       {/* Header || NavBar  */}
       <Header />
-      <main>
+      <main className='relative pl-4 pb-24 lg:space-y-24 lg:pl-16'>
         {/* Banner || Hero */}
         <Banner netflixOriginals={netflixOriginals}/>
         <section>
